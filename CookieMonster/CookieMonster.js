@@ -1538,9 +1538,9 @@ CM.Disp.AddMenuStats = function(title) {
 				choEggTotal *= 0.05;
 				stats.appendChild(listing(choEggTitleFrag, document.createTextNode(Beautify(choEggTotal))));
 			}
-			if (CM.config.MissedGCs) {
+			//if (CM.config.MissedGCs) {
 				stats.appendChild(listing('Missed Golden Cookies', document.createTextNode(Beautify(Game.missedGoldenClicks))));
-			}
+			//}
 		}
 	}
 
